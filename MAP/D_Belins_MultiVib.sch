@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "WORK LV1"
+Date "2020-10-01"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery BT?
+U 1 1 5F785663
+P 4910 3480
+F 0 "BT?" H 5018 3526 50  0000 L CNN
+F 1 "9V" H 5018 3435 50  0000 L CNN
+F 2 "" V 4910 3540 50  0001 C CNN
+F 3 "~" V 4910 3540 50  0001 C CNN
+	1    4910 3480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F785C08
+P 5300 2970
+F 0 "D?" V 5339 2853 50  0000 R CNN
+F 1 "LED" V 5248 2853 50  0000 R CNN
+F 2 "" H 5300 2970 50  0001 C CNN
+F 3 "~" H 5300 2970 50  0001 C CNN
+	1    5300 2970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F786044
+P 6260 3020
+F 0 "D?" V 6299 2903 50  0000 R CNN
+F 1 "LED" V 6208 2903 50  0000 R CNN
+F 2 "" H 6260 3020 50  0001 C CNN
+F 3 "~" H 6260 3020 50  0001 C CNN
+	1    6260 3020
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F786319
+P 5300 3340
+F 0 "R?" V 5380 3300 50  0000 L CNN
+F 1 "470R" V 5300 3240 50  0000 L CNN
+F 2 "" V 5230 3340 50  0001 C CNN
+F 3 "~" H 5300 3340 50  0001 C CNN
+	1    5300 3340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F78664A
+P 5610 3350
+F 0 "R?" V 5690 3310 50  0000 L CNN
+F 1 "47k" V 5610 3290 50  0000 L CNN
+F 2 "" V 5540 3350 50  0001 C CNN
+F 3 "~" H 5610 3350 50  0001 C CNN
+	1    5610 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7867E8
+P 5950 3340
+F 0 "R?" V 6030 3290 50  0000 L CNN
+F 1 "47k" V 5950 3270 50  0000 L CNN
+F 2 "" V 5880 3340 50  0001 C CNN
+F 3 "~" H 5950 3340 50  0001 C CNN
+	1    5950 3340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F786A7C
+P 6260 3350
+F 0 "R?" V 6340 3300 50  0000 L CNN
+F 1 "470R" V 6260 3250 50  0000 L CNN
+F 2 "" V 6190 3350 50  0001 C CNN
+F 3 "~" H 6260 3350 50  0001 C CNN
+	1    6260 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F78721C
+P 5450 3750
+F 0 "C?" H 5560 3840 50  0000 C CNN
+F 1 "47uF" H 5590 3650 50  0000 C CNN
+F 2 "" H 5450 3750 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5450 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F7876E9
+P 6100 3770
+F 0 "C?" H 6180 3870 50  0000 C CNN
+F 1 "47uF" H 6200 3670 50  0000 C CNN
+F 2 "" H 6100 3770 50  0001 C CNN
+F 3 "~" H 6100 3770 50  0001 C CNN
+	1    6100 3770
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC548 Q?
+U 1 1 5F787B24
+P 5400 4180
+F 0 "Q?" H 5591 4271 50  0000 L CNN
+F 1 "BC548" H 5591 4180 50  0000 L CNN
+F 2 "TO-92" H 5591 4089 50  0000 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5400 4180 50  0001 L CNN
+	1    5400 4180
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC548 Q?
+U 1 1 5F78810D
+P 6160 4180
+F 0 "Q?" H 6350 4271 50  0000 L CNN
+F 1 "BC548" H 6350 4180 50  0000 L CNN
+F 2 "TO-92" H 6350 4089 50  0000 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6160 4180 50  0001 L CNN
+	1    6160 4180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4910 3280 4910 2820
+Wire Wire Line
+	4910 2820 5300 2820
+Wire Wire Line
+	5300 3120 5300 3190
+Wire Wire Line
+	6260 3170 6260 3200
+Wire Wire Line
+	6260 2870 6260 2820
+Wire Wire Line
+	6260 3500 6260 3770
+Wire Wire Line
+	6260 3770 6250 3770
+Wire Wire Line
+	6260 3770 6260 3980
+Connection ~ 6260 3770
+Wire Wire Line
+	5950 3190 5950 2820
+Connection ~ 5950 2820
+Wire Wire Line
+	5950 2820 6260 2820
+Wire Wire Line
+	5950 3770 5950 3490
+Wire Wire Line
+	5610 3200 5610 2820
+Connection ~ 5610 2820
+Wire Wire Line
+	5610 2820 5950 2820
+Wire Wire Line
+	5610 3500 5610 3750
+Wire Wire Line
+	5610 3750 5600 3750
+Wire Wire Line
+	5300 3750 5300 3490
+Wire Wire Line
+	5300 3980 5300 3750
+Connection ~ 5300 3750
+Wire Wire Line
+	5600 4180 5830 4180
+Wire Wire Line
+	5830 4180 5830 3770
+Wire Wire Line
+	5830 3770 5950 3770
+Connection ~ 5950 3770
+Wire Wire Line
+	5960 4180 5960 4090
+Wire Wire Line
+	5610 3830 5610 3750
+Connection ~ 5610 3750
+Wire Wire Line
+	4910 3680 4910 4380
+Wire Wire Line
+	4910 4380 5300 4380
+Wire Wire Line
+	5300 4380 6260 4380
+Connection ~ 5300 4380
+Text Notes 5280 4040 1    50   ~ 0
+C
+Text Notes 5520 4170 0    50   ~ 0
+B
+Text Notes 5280 4360 1    50   ~ 0
+E
+Text Notes 6250 4040 1    50   ~ 0
+C
+Text Notes 6010 4170 0    50   ~ 0
+B
+Text Notes 6240 4360 1    50   ~ 0
+E
+Connection ~ 5300 2820
+Wire Wire Line
+	5300 2820 5610 2820
+Wire Wire Line
+	5610 4090 5960 4090
+Wire Wire Line
+	5610 3830 5610 4090
+$EndSCHEMATC

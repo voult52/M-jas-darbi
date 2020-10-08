@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name APZ)(type Legacy)(uri ${KIPRJMOD}/Apzimejumi/APZ.lib)(options "")(descr ""))
-)

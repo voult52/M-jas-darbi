@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:AMP-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -155,4 +156,148 @@ Text Notes 4340 3160 0    50   ~ 0
 Left+Right
 Text Notes 4550 3280 0    50   ~ 0
 GND
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5F86B760
+P 4370 4570
+F 0 "Q?" H 4560 4616 50  0000 L CNN
+F 1 "2N3904" H 4560 4525 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4570 4495 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4370 4570 50  0001 L CNN
+	1    4370 4570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F86C85E
+P 3850 4570
+F 0 "C?" H 3965 4616 50  0000 L CNN
+F 1 "0.1uF" H 3965 4525 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3888 4420 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2918175.pdf?_ga=2.44314980.1779527899.1602655795-2136968395.1587212638" H 3850 4570 50  0001 C CNN
+	1    3850 4570
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F86D2ED
+P 4090 4370
+F 0 "R?" H 4160 4416 50  0000 L CNN
+F 1 "1k" H 4160 4325 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4020 4370 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4090 4370 50  0001 C CNN
+	1    4090 4370
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F86D92E
+P 4090 4790
+F 0 "R?" H 4160 4836 50  0000 L CNN
+F 1 "1k" H 4160 4745 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4020 4790 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4090 4790 50  0001 C CNN
+	1    4090 4790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4570 4090 4570
+Wire Wire Line
+	4090 4520 4090 4570
+Connection ~ 4090 4570
+Wire Wire Line
+	4090 4570 4170 4570
+Wire Wire Line
+	4090 4570 4090 4640
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5F86EE30
+P 5350 4580
+F 0 "Q?" H 5540 4626 50  0000 L CNN
+F 1 "2N3904" H 5540 4535 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5550 4505 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5350 4580 50  0001 L CNN
+	1    5350 4580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F86FB20
+P 5450 5000
+F 0 "R?" H 5520 5046 50  0000 L CNN
+F 1 "1k" H 5520 4955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 5380 5000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 5450 5000 50  0001 C CNN
+	1    5450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4850 5450 4830
+Wire Wire Line
+	5150 4580 5150 4370
+Wire Wire Line
+	5150 4370 4470 4370
+$Comp
+L Device:R R?
+U 1 1 5F871716
+P 4470 4220
+F 0 "R?" H 4540 4266 50  0000 L CNN
+F 1 "1k" H 4540 4175 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4400 4220 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4470 4220 50  0001 C CNN
+	1    4470 4220
+	1    0    0    -1  
+$EndComp
+Connection ~ 4470 4370
+$Comp
+L Device:CP1 C?
+U 1 1 5F8721F0
+P 6230 4250
+F 0 "C?" V 5978 4250 50  0000 C CNN
+F 1 "47uF" V 6069 4250 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6230 4250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2875044.pdf?_ga=2.42561893.1779527899.1602655795-2136968395.1587212638" H 6230 4250 50  0001 C CNN
+	1    6230 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5F87490D
+P 5850 5020
+F 0 "C?" H 6040 5110 50  0000 C CNN
+F 1 "4.7uF" H 6080 5040 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5850 5020 50  0001 C CNN
+F 3 "~" H 5850 5020 50  0001 C CNN
+	1    5850 5020
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4830 5850 4830
+Wire Wire Line
+	5850 4830 5850 4870
+Connection ~ 5450 4830
+Wire Wire Line
+	5450 4830 5450 4780
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F8770B0
+P 5450 5150
+F 0 "#PWR?" H 5450 4900 50  0001 C CNN
+F 1 "GNDREF" H 5455 4977 50  0000 C CNN
+F 2 "" H 5450 5150 50  0001 C CNN
+F 3 "" H 5450 5150 50  0001 C CNN
+	1    5450 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5F877CE5
+P 5850 5170
+F 0 "#PWR?" H 5850 4920 50  0001 C CNN
+F 1 "GNDREF" H 5855 4997 50  0000 C CNN
+F 2 "" H 5850 5170 50  0001 C CNN
+F 3 "" H 5850 5170 50  0001 C CNN
+	1    5850 5170
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

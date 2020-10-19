@@ -15,152 +15,47 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:BC547 Q1
-U 1 1 5F869419
-P 5910 3030
-F 0 "Q1" H 6101 3076 50  0000 L CNN
-F 1 "BC547" H 6101 2985 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6110 2955 50  0001 L CIN
-F 3 "https://www.sparkfun.com/datasheets/Components/BC546.pdf" H 5910 3030 50  0001 L CNN
-	1    5910 3030
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C3
-U 1 1 5F869C37
-P 6220 2620
-F 0 "C3" V 5968 2620 50  0000 C CNN
-F 1 "4.7uF" V 6059 2620 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6220 2620 50  0001 C CNN
-F 3 "~" H 6220 2620 50  0001 C CNN
-	1    6220 2620
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5F86ABFF
-P 5710 3310
-F 0 "C2" H 5825 3356 50  0000 L CNN
-F 1 "0.1uF" H 5825 3265 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5748 3160 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2918175.pdf?_ga=2.44314980.1779527899.1602655795-2136968395.1587212638" H 5710 3310 50  0001 C CNN
-	1    5710 3310
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5F86B082
-P 5710 2770
-F 0 "R1" H 5780 2816 50  0000 L CNN
-F 1 "1k" H 5780 2725 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 5640 2770 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 5710 2770 50  0001 C CNN
-	1    5710 2770
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5F86B7AA
-P 6660 3450
-F 0 "J2" H 6740 3442 50  0000 L CNN
-F 1 "9 V " H 6740 3351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6660 3450 50  0001 C CNN
-F 3 "http://www.ibselectronics.com/ibsstore/datasheet/PH1S25-105TB8.083.pdf" H 6660 3450 50  0001 C CNN
-	1    6660 3450
-	1    0    0    -1  
+P 4990 3820
+F 0 "J2" H 5070 3812 50  0000 L CNN
+F 1 "9 V " H 5070 3721 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4990 3820 50  0001 C CNN
+F 3 "http://www.ibselectronics.com/ibsstore/datasheet/PH1S25-105TB8.083.pdf" H 4990 3820 50  0001 C CNN
+	1    4990 3820
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Speaker LS1
 U 1 1 5F86BD9C
-P 6830 2220
-F 0 "LS1" H 7000 2216 50  0000 L CNN
-F 1 "8ohm" H 7000 2125 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6830 2020 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1936659.pdf?_ga=2.18439929.1779527899.1602655795-2136968395.1587212638" H 6820 2170 50  0001 C CNN
-	1    6830 2220
+P 6350 4830
+F 0 "LS1" H 6520 4826 50  0000 L CNN
+F 1 "8ohm" H 6520 4735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 4630 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1936659.pdf?_ga=2.18439929.1779527899.1602655795-2136968395.1587212638" H 6340 4780 50  0001 C CNN
+	1    6350 4830
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6010 3230 6010 3550
-Wire Wire Line
-	6010 3550 6460 3550
-Wire Wire Line
-	5710 3160 5710 3030
-Wire Wire Line
-	5710 3030 5710 2920
-Connection ~ 5710 3030
-Wire Wire Line
-	5710 3460 5710 3550
-Wire Wire Line
-	5710 3550 6010 3550
-Connection ~ 6010 3550
-Wire Wire Line
-	6010 2830 6010 2620
-Wire Wire Line
-	6010 2620 6070 2620
-Wire Wire Line
-	6370 2620 6410 2620
-Wire Wire Line
-	6630 2620 6630 2320
-Wire Wire Line
-	6410 2620 6410 3450
-Wire Wire Line
-	6410 3450 6460 3450
-Connection ~ 6410 2620
-Wire Wire Line
-	6410 2620 6630 2620
-Wire Wire Line
-	6630 2220 5710 2220
-Wire Wire Line
-	5710 2220 5710 2620
-Wire Wire Line
-	6010 2620 5710 2620
-Connection ~ 6010 2620
-Connection ~ 5710 2620
-$Comp
-L Device:CP1 C1
-U 1 1 5F87508F
-P 5470 3030
-F 0 "C1" V 5218 3030 50  0000 C CNN
-F 1 "47uF" V 5309 3030 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 5470 3030 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2875044.pdf?_ga=2.42561893.1779527899.1602655795-2136968395.1587212638" H 5470 3030 50  0001 C CNN
-	1    5470 3030
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5620 3030 5710 3030
-Wire Wire Line
-	5710 3550 5400 3550
-Connection ~ 5710 3550
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5F87648A
-P 4820 3230
-F 0 "J1" H 4738 2905 50  0000 C CNN
-F 1 "Audio input" H 4738 2996 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4820 3230 50  0001 C CNN
-F 3 "http://www.ibselectronics.com/ibsstore/datasheet/PH1S25-105TB8.083.pdf" H 4820 3230 50  0001 C CNN
-	1    4820 3230
+P 3500 4670
+F 0 "J1" H 3418 4345 50  0000 C CNN
+F 1 "Audio input" H 3418 4436 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 4670 50  0001 C CNN
+F 3 "http://www.ibselectronics.com/ibsstore/datasheet/PH1S25-105TB8.083.pdf" H 3500 4670 50  0001 C CNN
+	1    3500 4670
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5020 3230 5400 3230
-Wire Wire Line
-	5400 3230 5400 3550
-Wire Wire Line
-	5020 3130 5320 3130
-Wire Wire Line
-	5320 3130 5320 3030
-Text Notes 4340 3160 0    50   ~ 0
+Text Notes 3020 4600 0    50   ~ 0
 Left+Right
-Text Notes 4550 3280 0    50   ~ 0
+Text Notes 3230 4720 0    50   ~ 0
 GND
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q1
 U 1 1 5F86B760
 P 4370 4570
-F 0 "Q?" H 4560 4616 50  0000 L CNN
+F 0 "Q1" H 4560 4616 50  0000 L CNN
 F 1 "2N3904" H 4560 4525 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4570 4495 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4370 4570 50  0001 L CNN
@@ -168,33 +63,33 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4370 4570 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5F86C85E
 P 3850 4570
-F 0 "C?" H 3965 4616 50  0000 L CNN
-F 1 "0.1uF" H 3965 4525 50  0000 L CNN
+F 0 "C1" H 3965 4616 50  0000 L CNN
+F 1 "0.47uF" H 3965 4525 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3888 4420 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2918175.pdf?_ga=2.44314980.1779527899.1602655795-2136968395.1587212638" H 3850 4570 50  0001 C CNN
 	1    3850 4570
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5F86D2ED
 P 4090 4370
-F 0 "R?" H 4160 4416 50  0000 L CNN
-F 1 "1k" H 4160 4325 50  0000 L CNN
+F 0 "R1" H 4160 4416 50  0000 L CNN
+F 1 "220k" H 4160 4325 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4020 4370 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4090 4370 50  0001 C CNN
 	1    4090 4370
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5F86D92E
 P 4090 4790
-F 0 "R?" H 4160 4836 50  0000 L CNN
-F 1 "1k" H 4160 4745 50  0000 L CNN
+F 0 "R2" H 4160 4836 50  0000 L CNN
+F 1 "27k" H 4160 4745 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4020 4790 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4090 4790 50  0001 C CNN
 	1    4090 4790
@@ -210,10 +105,10 @@ Wire Wire Line
 Wire Wire Line
 	4090 4570 4090 4640
 $Comp
-L Transistor_BJT:2N3904 Q?
+L Transistor_BJT:2N3904 Q2
 U 1 1 5F86EE30
 P 5350 4580
-F 0 "Q?" H 5540 4626 50  0000 L CNN
+F 0 "Q2" H 5540 4626 50  0000 L CNN
 F 1 "2N3904" H 5540 4535 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5550 4505 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5350 4580 50  0001 L CNN
@@ -221,10 +116,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5350 4580 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5F86FB20
 P 5450 5000
-F 0 "R?" H 5520 5046 50  0000 L CNN
+F 0 "R5" H 5520 5046 50  0000 L CNN
 F 1 "1k" H 5520 4955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 5380 5000 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 5450 5000 50  0001 C CNN
@@ -238,10 +133,10 @@ Wire Wire Line
 Wire Wire Line
 	5150 4370 4470 4370
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5F871716
 P 4470 4220
-F 0 "R?" H 4540 4266 50  0000 L CNN
+F 0 "R3" H 4540 4266 50  0000 L CNN
 F 1 "1k" H 4540 4175 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4400 4220 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4470 4220 50  0001 C CNN
@@ -250,10 +145,10 @@ F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.160
 $EndComp
 Connection ~ 4470 4370
 $Comp
-L Device:CP1 C?
+L Device:CP1 C4
 U 1 1 5F8721F0
 P 6230 4250
-F 0 "C?" V 5978 4250 50  0000 C CNN
+F 0 "C4" V 5978 4250 50  0000 C CNN
 F 1 "47uF" V 6069 4250 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6230 4250 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2875044.pdf?_ga=2.42561893.1779527899.1602655795-2136968395.1587212638" H 6230 4250 50  0001 C CNN
@@ -261,43 +156,149 @@ F 3 "http://www.farnell.com/datasheets/2875044.pdf?_ga=2.42561893.1779527899.160
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C3
 U 1 1 5F87490D
-P 5850 5020
-F 0 "C?" H 6040 5110 50  0000 C CNN
-F 1 "4.7uF" H 6080 5040 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5850 5020 50  0001 C CNN
-F 3 "~" H 5850 5020 50  0001 C CNN
-	1    5850 5020
-	1    0    0    -1  
+P 6000 4830
+F 0 "C3" H 6190 4920 50  0000 C CNN
+F 1 "4.7uF" H 6230 4850 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 6000 4830 50  0001 C CNN
+F 3 "~" H 6000 4830 50  0001 C CNN
+	1    6000 4830
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5450 4830 5850 4830
-Wire Wire Line
-	5850 4830 5850 4870
 Connection ~ 5450 4830
 Wire Wire Line
 	5450 4830 5450 4780
 $Comp
-L power:GNDREF #PWR?
+L power:GNDREF #PWR0101
 U 1 1 5F8770B0
-P 5450 5150
-F 0 "#PWR?" H 5450 4900 50  0001 C CNN
-F 1 "GNDREF" H 5455 4977 50  0000 C CNN
-F 2 "" H 5450 5150 50  0001 C CNN
-F 3 "" H 5450 5150 50  0001 C CNN
-	1    5450 5150
+P 4610 5120
+F 0 "#PWR0101" H 4610 4870 50  0001 C CNN
+F 1 "GNDREF" H 4615 4947 50  0000 C CNN
+F 2 "" H 4610 5120 50  0001 C CNN
+F 3 "" H 4610 5120 50  0001 C CNN
+	1    4610 5120
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR?
-U 1 1 5F877CE5
-P 5850 5170
-F 0 "#PWR?" H 5850 4920 50  0001 C CNN
-F 1 "GNDREF" H 5855 4997 50  0000 C CNN
-F 2 "" H 5850 5170 50  0001 C CNN
-F 3 "" H 5850 5170 50  0001 C CNN
-	1    5850 5170
+L Device:R R4
+U 1 1 5F8DF66C
+P 4470 4970
+F 0 "R4" H 4540 5016 50  0000 L CNN
+F 1 "1k5" H 4540 4925 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4400 4970 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2915445.pdf?_ga=2.43212389.1779527899.1602655795-2136968395.1587212638" H 4470 4970 50  0001 C CNN
+	1    4470 4970
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5F8E0386
+P 4750 4960
+F 0 "C2" V 4498 4960 50  0000 C CNN
+F 1 "4.7uF" V 4589 4960 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4750 4960 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2875044.pdf?_ga=2.42561893.1779527899.1602655795-2136968395.1587212638" H 4750 4960 50  0001 C CNN
+	1    4750 4960
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 4670 3700 4940
+Wire Wire Line
+	3700 4940 4090 4940
+Wire Wire Line
+	4090 4940 4090 5120
+Wire Wire Line
+	4090 5120 4470 5120
+Connection ~ 4090 4940
+Wire Wire Line
+	4470 5120 4610 5120
+Wire Wire Line
+	4750 5120 4750 5110
+Connection ~ 4470 5120
+Connection ~ 4610 5120
+Wire Wire Line
+	4610 5120 4750 5120
+Wire Wire Line
+	4750 5120 5380 5120
+Wire Wire Line
+	5380 5120 5380 5150
+Wire Wire Line
+	5380 5150 5450 5150
+Connection ~ 4750 5120
+Wire Wire Line
+	5450 5150 5740 5150
+Wire Wire Line
+	5740 5150 5740 5170
+Wire Wire Line
+	5740 5170 5850 5170
+Connection ~ 5450 5150
+Wire Wire Line
+	6230 4100 5450 4100
+Wire Wire Line
+	4590 4100 4590 4070
+Wire Wire Line
+	4590 4070 4470 4070
+Wire Wire Line
+	4470 4070 4090 4070
+Wire Wire Line
+	4090 4070 4090 4220
+Connection ~ 4470 4070
+Wire Wire Line
+	4750 4810 4470 4810
+Wire Wire Line
+	4470 4810 4470 4820
+Wire Wire Line
+	4470 4810 4470 4770
+Connection ~ 4470 4810
+Wire Wire Line
+	5450 4380 5450 4100
+Connection ~ 5450 4100
+Wire Wire Line
+	5450 4100 5090 4100
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 5F8F38D3
+P 6230 4400
+F 0 "#PWR0102" H 6230 4150 50  0001 C CNN
+F 1 "GNDREF" H 6235 4227 50  0000 C CNN
+F 2 "" H 6230 4400 50  0001 C CNN
+F 3 "" H 6230 4400 50  0001 C CNN
+	1    6230 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5030 5850 5030
+Wire Wire Line
+	5850 5030 5850 5170
+Wire Wire Line
+	6150 4930 6150 5030
+Wire Wire Line
+	5090 4020 5090 4100
+Connection ~ 5090 4100
+Wire Wire Line
+	5090 4100 4590 4100
+Wire Wire Line
+	2960 4020 2960 5120
+Wire Wire Line
+	2960 5120 4090 5120
+Wire Wire Line
+	2960 4020 3730 4020
+Connection ~ 4090 5120
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F8DD65E
+P 3730 4020
+F 0 "#FLG0101" H 3730 4095 50  0001 C CNN
+F 1 "PWR_FLAG" H 3730 4193 50  0000 C CNN
+F 2 "" H 3730 4020 50  0001 C CNN
+F 3 "~" H 3730 4020 50  0001 C CNN
+	1    3730 4020
+	1    0    0    -1  
+$EndComp
+Connection ~ 3730 4020
+Wire Wire Line
+	3730 4020 4990 4020
 $EndSCHEMATC

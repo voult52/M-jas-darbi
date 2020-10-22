@@ -47,4 +47,37 @@ F 3 "" H 2660 3030 50  0001 C CNN
 	1    2660 3030
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5F914D28
+P 3390 2930
+F 0 "BT2" H 3508 3026 50  0000 L CNN
+F 1 "S8211R" H 3508 2935 50  0000 L CNN
+F 2 "Battery holder:S8211R" V 3390 2990 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/181/S8211R-1135346.pdf" V 3390 2990 50  0001 C CNN
+	1    3390 2930
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5F914D2E
+P 3390 2730
+F 0 "#PWR0103" H 3390 2580 50  0001 C CNN
+F 1 "+3.3V" H 3405 2903 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 3390 2730 50  0001 C CNN
+F 3 "" H 3390 2730 50  0001 C CNN
+	1    3390 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F914D34
+P 3390 3030
+F 0 "#PWR0104" H 3390 2780 50  0001 C CNN
+F 1 "GND" H 3395 2857 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 3390 3030 50  0001 C CNN
+F 3 "" H 3390 3030 50  0001 C CNN
+	1    3390 3030
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
